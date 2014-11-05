@@ -1,0 +1,41 @@
+dca:
+  lat: 38.895111
+  long: -77.036667
+  city: Washington
+  state: DC
+  region: 11
+
+sfo:
+  lat: 37.783333
+  long: -122.416667
+  city: San Francisco
+  state: CA
+  region: 9
+
+chi:
+  lat: 41.836944
+  long: -87.684722
+  city: Chicago
+  state: IL
+  region: 5
+
+nyc:
+  lat: 40.7127
+  long: -74.0059
+  city: New York City
+  state: NY
+  region: 2
+
+tuc:
+  lat: 32.221667
+  long: -110.926389
+  city: Tucson
+  state: AZ
+  region: 9
+
+aus:
+  lat: 30.25
+  long: -97.75
+  city: Austin
+  state: TX
+  region: 7
