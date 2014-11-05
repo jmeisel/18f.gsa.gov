@@ -44,7 +44,7 @@
 
 - name: dave
   full_name: Dave Caraway
-  location: dca
+  location: day
 
 - name: kaitlin
   full_name: Kaitlin Devine
@@ -52,7 +52,7 @@
 
 - name: catherine
   full_name: Catherine Devlin
-  location: dca
+  location: day
 
 - name: jen
   full_name: Jen Ehlers
@@ -160,7 +160,7 @@
 
 - name: russ
   full_name: Russ Unger
-  location: sfo
+  location: chi
 
 - name: raphy
   full_name: Raphael Villas
