@@ -737,7 +737,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	margin-top: -6px;
 }
-.bare-content {
+.bare-content, .map-content {
 	@include span-columns(9);
 	@include omega();
 	@include media($smallest) {
@@ -747,6 +747,12 @@ $tiniest: new-breakpoint(max-width 390px);
 		@include span-columns(12);
 	}
 }
+
+// .map-content {
+// 	overflow: hidden;
+// 	min-height: 400px;
+// 	display: inline-block;
+// }
 
 // Dashboard
 //********************************************************
