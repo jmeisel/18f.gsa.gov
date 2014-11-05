@@ -1,0 +1,55 @@
+---
+layout: map
+title: Team
+permalink: /team/
+---
+<h1>{{page.title}}</h1>
+<style>
+    #map {min-height: 300px; height: auto;}
+</style>
+<div id="map" class="blog-posting"></div>
+<section class="team container">
+  <p>What started as a small team in Washington, DC has grown to a team of nearly 100 eager technologists in {{site.data.locations.size }} states. Many of our staff work out of our offices in Washington, San Francisco, and Chicago.
+  </p>
+{% for location in site.data.locations %}
+    <section id="{{ location[0] }}" class="team container">
+      <h2>{{location[1].city}} | {{location[0]}} </h2>
+      <ul>
+      {% for member in site.data.team %}
+      {% unless member.hidden %}
+        {% if member.location == location[0] %}
+          <div class="bio">
+            <a><img class="img-circle team-img bio-clip" src="/assets/images/team/{{member.name}}.jpg" alt="Photo of {{ member.full_name }}">
+            <h1>{{ member.full_name }}</h1></a>
+          </div>
+        {% endif %}
+      {% endunless %}
+      {% endfor %}
+      <a href="#map">back to the map</a>
+  </section><br/>
+{% endfor %}
+<section class="blog-pagination">
+  <a href="/">Home</a>
+</section>
+<aside class="blog-follow-us">
+  <h1>Follow us here:</h1>
+  <ul>
+    <li><i class="icon-twitter"></i> <a href="https://twitter.com/18f">Twitter @18F</a></li>
+    <li><i class="icon-github2"></i> <a href="https://github.com/18f">GitHub / 18F</a></li>
+  </ul>
+</aside>
+<script>
+  var map = L.map(
+    'map',
+    {
+      scrollWheelZoom: false,
+      zoom: 4,
+      center: [39.828, -98.579]
+    }
+  );
+  L.tileLayer('http://{s}.tiles.mapbox.com/v3/examples.map-i875mjb7/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18,
+    scrollWheelZoom: false,
+  }).addTo(map);
+</script>
