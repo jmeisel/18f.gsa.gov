@@ -1,101 +1,196 @@
 - name: jamie
   full_name: Jamie Albrecht
+  location: sfo
+
 - name: sarah
   full_name: Sarah Allen
+  location: sfo
+
 - name: leah
   full_name: Leah Bannon
+  location: dca
+
 - name: david
   full_name: David Best
+  location: day
+
 - name: boone
   full_name: Greg Boone
+  location: dca
+
 - name: brethauer
   full_name: Nick Brethauer
+  location: dca
+
 - name: nick
   full_name: Nick Bristow
+  location: dca
+
 - name: gray
   full_name: Gray Brooks
+  location: dca
+
 - name: jeremy
   full_name: Jeremy Canfield
+  location: nyc
+
 - name: chrisc
   full_name: Chris Cairns
+  location: dca
+
 - name: dave
   full_name: Dave Caraway
+location: day
+
 - name: kaitlin
   full_name: Kaitlin Devine
+  location: dca
+
 - name: catherine
   full_name: Catherine Devlin
+  location: day
+
 - name: jen
   full_name: Jen Ehlers
+  location: dca
+
 - name: garren
   full_name: Garren Givens
+  location: dca
+
 - name: greg
   full_name: Greg Godbout
+  location: dca
+
 - name: yoz
   full_name: Yoz Grahame
+  location: sfo
+
 - name: justin
   full_name: Justin Grevich
+  location: sfo
+
 - name: hillary
   full_name: Hillary Hartley
+  location: sfo
+
 - name: sean
   full_name: Sean Herron
+  location: dca
+
 - name: mhz
   full_name: Michelle Hertzfeld
+  location: tuc
+
 - name: michelle
   full_name: Michelle Hood
 - name: elaine
   full_name: Elaine Kamlley
+  location: dca
+
 - name: stacy
   full_name: Stacy Kane
+  hidden: true
+  alum: true
+
 - name: jackie
   full_name: Jackie Kazil
+  location: dca
   hidden: true
+
 - name: noah
   full_name: Noah Kunin
+  location: dca
+
 - name: diego
   full_name: Diego Lapiduz
+  location: sfo
+
 - name: sasha
   full_name: Sasha Magee
+  location: sfo
+
 - name: majma
   full_name: Raphael Majma
+  location: dca
+
 - name: manger
   full_name: Noah Manger
+  location: sfo
+
 - name: eric
   full_name: Eric Mill
+  location: dca
+
 - name: ric
   full_name: Ric Miller
+  location: dca
+
 - name: nienhuis
   full_name: Kristin Nienhuis
+  location: sfo
+
 - name: papazian
   full_name: Chris Papazian
+  location: sfo
+
 - name: joe
   full_name: Joe Polastre, PhD
+  location: sfo
+
 - name: robert
   full_name: Robert L. Read, PhD
+  location: aus
+
 - name: alison
   full_name: Alison Rowland
+
 - name: josh
   full_name: Josh Ruihley
+  location: dca
+
 - name: aaron
   full_name: Aaron Snow
+  location: dca
+
 - name: amos
   full_name: Amos Stone
+  location: sfo
+
 - name: theresa
   full_name: Theresa Summa
+  location: sfo
+
 - name: russ
   full_name: Russ Unger
+  location: chi
+
 - name: raphy
   full_name: Raphael Villas
+  location: chi
+
 - name: ben
   full_name: Ben Willman
+  location: dca
+
 - name: lindsay
   full_name: Lindsay Young
+  location: dca
+
 - name: yuda
   full_name: John Yuda
+  location: dca
+
 - name: victor
   full_name: Victor Diaz Zapanta
+  location: dca
+
 - name: jane
   full_name: jane avriette
+  location: dca
   hidden: true
+
 - full_name: Alan deLevie
+  location: dca
   name: alan
   hidden: true
