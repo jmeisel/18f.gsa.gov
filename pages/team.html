@@ -3,31 +3,48 @@ layout: map
 title: Team
 permalink: /team/
 ---
+{% assign team = site.data.team.team %}
+{% assign locations = site.data.team.locations %}
 <h1>{{page.title}}</h1>
 <style>
     #map {min-height: 300px; height: auto;}
 </style>
 <div id="map" class="blog-posting"></div>
 <section class="team container">
-  <p>What started as a small team in Washington, DC has grown to a team of nearly 100 eager technologists in {{site.data.locations.size }} states. Many of our staff work out of our offices in Washington, San Francisco, and Chicago.
+  <p>What started as a small team in Washington, DC has grown to a team of {{ team.size }} eager technologists in {{ locations.size }} cities. Many of our staff work out of our offices in Washington, San Francisco, and Chicago.
   </p>
-{% for location in site.data.locations %}
-    <section id="{{ location[0] }}" class="team container">
-      <h2>{{location[1].city}} | {{location[0]}} </h2>
-      <ul>
-      {% for member in site.data.team %}
-      {% unless member.hidden %}
-        {% if member.location == location[0] %}
-          <div class="bio">
-            <a><img class="img-circle team-img bio-clip" src="/assets/images/team/{{member.name}}.jpg" alt="Photo of {{ member.full_name }}">
-            <h1>{{ member.full_name }}</h1></a>
-          </div>
-        {% endif %}
+{% for l in locations %}
+<section id="{{l[0] }}" class="team container">
+  {% assign city = l[1].city %}
+  {% for resident in team %}
+    {% capture empty %}
+      {% if forloop.index0 == 0 %}
+        {% unless resident.hidden %}
+          1
+        {% endunless %}
+      {% else %}
+        0
+      {% endif %}
+    {% endcapture %}
+  {% endfor %}
+  {% unless empty == 1 %}
+    <h2>{{ city }} | {{ l[0] }}</h2>
+    {% for person in team %}
+      {% if person.location == l[0] %}
+      {% unless person.hidden or person.pif %}
+        <div class="bio" id="{{person.name}}">
+          <a><img class="img-circle team-img bio-clip" src="/assets/images/team/{{person.name}}.jpg" alt="Photo of {{person.full_name}}" />
+          <h1>{{ person.full_name}}</h1></a>
+        </div>
       {% endunless %}
-      {% endfor %}
+      {% endif %}
+    {% endfor %}
+  {% endunless %}
+</section>
+{% endfor %}
+
       <a href="#map">back to the map</a>
   </section><br/>
-{% endfor %}
 <section class="blog-pagination">
   <a href="/">Home</a>
 </section>

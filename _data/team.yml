@@ -1,3 +1,68 @@
+locations:
+  dca:
+    lat: 38.895111
+    long: -77.036667
+    city: Washington
+    state: DC
+    region: 11
+
+  sfo:
+    lat: 37.783333
+    long: -122.416667
+    city: San Francisco
+    state: CA
+    region: 9
+
+  chi:
+    lat: 41.836944
+    long: -87.684722
+    city: Chicago
+    state: IL
+    region: 5
+
+  day:
+    lat: 39.759444
+    long: -84.191667
+    city: Dayton
+    state: OH
+    region: 5
+
+  nyc:
+    lat: 40.7127
+    long: -74.0059
+    city: New York City
+    state: NY
+    region: 2
+
+  tuc:
+    lat: 32.221667
+    long: -110.926389
+    city: Tucson
+    state: AZ
+    region: 9
+
+  aus:
+    lat: 30.25
+    long: -97.75
+    city: Austin
+    state: TX
+    region: 7
+
+  san:
+    lat: 32.715
+    long: -117.1625
+    city: San Diego
+    state: CA
+    region: 9
+
+  sea:
+    lat: 47.609722
+    long: -122.333056
+    city: Seattle
+    state: WA
+    region: 10
+
+team:
 - name: jamie
   full_name: Jamie Albrecht
   location: sfo
@@ -30,6 +95,11 @@
   full_name: Nick Bristow
   location: dca
 
+- name: sbrooks
+  full_name: Sarah Brooks
+  pif: true
+  location: dca
+
 - name: gray
   full_name: Gray Brooks
   location: dca
@@ -46,6 +116,16 @@
   full_name: Dave Caraway
   location: day
 
+- name: jchen
+  full_name: Jeff Chen
+  location: dca
+  pif: true
+
+- name: cdaggett
+  full_name: Christopher Daggett
+  location: dca
+  pif: true
+
 - name: kaitlin
   full_name: Kaitlin Devine
   location: dca
@@ -58,6 +138,11 @@
   full_name: Jen Ehlers
   location: dca
 
+- name: bgetson
+  full_name: Ben Getson
+  location: dca
+  pif: true
+
 - name: garren
   full_name: Garren Givens
   location: dca
@@ -66,17 +151,42 @@
   full_name: Greg Godbout
   location: dca
 
+- name: cgoranson
+  full_name: Christopher Goranson
+  pif: true
+  location: dca
+
 - name: yoz
   full_name: Yoz Grahame
   location: sfo
 
+- name: tgrandison
+  full_name: Tyrone Grandison
+  pif: true
+  location: dca
+
 - name: justin
   full_name: Justin Grevich
-  location: sfo
+  location: sea
+
+- name: dhammer
+  full_name: Dan Hammer
+  location: dca
+  pif: true
+
+- name: mhansen
+  full_name: Maia Hansen
+  location: dca
+  pif: true
 
 - name: hillary
   full_name: Hillary Hartley
   location: sfo
+
+- name: harrison_gordon
+  full_name: Rachel Harrison Gordon
+  pif: true
+  location: dca
 
 - name: sean
   full_name: Sean Herron
@@ -90,14 +200,44 @@
   full_name: Michelle Hood
   location: dca
 
+- name: aippolito
+  full_name: Andrea Ippolito
+  location: dca
+  pif: true
+
+- name: tjones
+  full_name: Timothy Jones
+  pif: true
+  location: dca
+
+- name: ekalafarski
+  full_name: E.J. Kalafarski
+  location: dca
+  pif: true
+
 - name: elaine
   full_name: Elaine Kamlley
   location: dca
+
+- name: ajablow
+  full_name: Ashley Jablow
+  location: dca
+  pif: true
+
+- name: stacy
+  full_name: Stacy Kane
+  hidden: true
+  alum: true
 
 - name: jackie
   full_name: Jackie Kazil
   location: dca
   hidden: true
+
+- name: jkim
+  full_name: Julia Kim
+  pif: true
+  location: dca
 
 - name: noah
   full_name: Noah Kunin
@@ -119,6 +259,16 @@
   full_name: Noah Manger
   location: sfo
 
+- name: jmeisel
+  full_name: Jeff Meisel
+  location: dca
+  pif: true
+
+- name: mmaron
+  full_name: Mikel Maron
+  pif: true
+  location: dca
+
 - name: eric
   full_name: Eric Mill
   location: dca
@@ -126,6 +276,11 @@
 - name: ric
   full_name: Ric Miller
   location: dca
+
+- name: naffis
+  full_name: David Naffis
+  location: dca
+  pif: true
 
 - name: papazian
   full_name: Chris Papazian
@@ -135,28 +290,64 @@
   full_name: Joe Polastre, PhD
   location: sfo
 
+- name: sraub
+  full_name: Susannah Raub
+  location: dca
+  pif: true
+
 - name: robert
   full_name: Robert L. Read, PhD
   location: aus
 
+- name: dross
+  full_name: Denice Ross
+  location: dca
+  pif: true
+
 - name: alison
   full_name: Alison Rowland
+  location: dca
 
 - name: josh
   full_name: Josh Ruihley
   location: dca
 
+- name: lshanley
+  full_name: Lea Shanley
+  location: dca
+  pif: true
+
 - name: aaron
   full_name: Aaron Snow
   location: dca
 
+- name: bso
+  full_name: Bosco So
+  location: dca
+  pif: true
+
+- name: rsosinski
+  full_name: Robert Sosinski
+  location: dca
+  pif: true
+
+- name: asteremberg
+  full_name: Alan Steremberg
+  location: dca
+  pif: true
+
 - name: amos
   full_name: Amos Stone
-  location: sfo
+  location: san
 
 - name: theresa
   full_name: Theresa Summa
   location: sfo
+
+- name: gsunthara
+  full_name: Gajen Sunthara
+  location: dca
+  pif: true
 
 - name: russ
   full_name: Russ Unger
@@ -166,9 +357,24 @@
   full_name: Raphael Villas
   location: chi
 
+- name: cwardell
+  full_name: Dr. Clarence Wardell III
+  location: dca
+  pif: true
+
 - name: ben
   full_name: Ben Willman
   location: dca
+
+- name: jwinn
+  full_name: Julia Winn
+  location: dca
+  pif: true
+
+- name: cwong
+  full_name: Christopher Wong
+  location: dca
+  pif: true
 
 - name: lindsay
   full_name: Lindsay Young
