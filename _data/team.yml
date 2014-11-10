@@ -121,6 +121,7 @@ team:
   full_name: Christopher Daggett
   location: dca
   pif: true
+  location: dca
 
 - name: kaitlin
   full_name: Kaitlin Devine
@@ -309,6 +310,7 @@ team:
 - name: alison
   full_name: Alison Rowland
   location: dca
+- name: alison
 
 - name: josh
   full_name: Josh Ruihley

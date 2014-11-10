@@ -6,7 +6,7 @@ module Jekyll
     end
 
     def render(context)
-      team = context.registers[:site].data['team']
+      team = context.registers[:site].data['team']['team']
       teammate = team.find {|t| t['name'] == @author}
 
       if teammate
